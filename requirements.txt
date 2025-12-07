@@ -1,3 +1,4 @@
 requests
 certifi==2023.7.22
 apscheduler==3.3.1
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
